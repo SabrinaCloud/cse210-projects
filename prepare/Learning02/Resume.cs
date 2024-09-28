@@ -6,7 +6,7 @@ public class Resume
     public void Diaplay()
     {
         Console.WriteLine($"Resume of : {_name}");
-        Console.WriteLine("Jobs:");
+        Console.WriteLine("Jobs: ");
 
         //show each job
         foreach (Job job in _jobs)
